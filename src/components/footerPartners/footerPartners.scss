@@ -1,0 +1,33 @@
+.partners {
+  &__bodyfooter {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    background: rgb(0, 21, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 21, 36, 1) 0%,
+      rgba(41, 121, 9, 1) 15%,
+      rgba(189, 255, 0, 1) 100%
+    );
+    box-shadow: 2px 2px 2px black;
+    padding: 24px;
+  }
+
+  &__fio {
+    grid-column: 6/8;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+.anim-enter {
+  opacity: 0;
+}
+.anim-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}

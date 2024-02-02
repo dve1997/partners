@@ -1,0 +1,53 @@
+.partners {
+  &__create {
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    margin-bottom: 15px;
+    padding: 15px;
+    height: 100%;
+  }
+
+  &__fied {
+    grid-column: 1/9;
+    margin-right: 15px;
+  }
+
+  &__createfield {
+    & > p {
+      margin-bottom: 5px;
+    }
+
+    & > input {
+      border: 1px solid black;
+      box-shadow: 1px 1px 1px black;
+      padding: 5px;
+      margin-bottom: 5px;
+      min-width: 90%;
+    }
+  }
+
+  &__button {
+    grid-column: 9/13;
+    display: grid;
+    grid-template-columns: 110px 110px 110px;
+    grid-template-rows: 50px;
+  }
+
+  &__btn {
+    & > span {
+      display: block;
+      padding-top: 5px;
+    }
+  }
+}
+
+.anim-enter {
+  opacity: 0;
+}
+.anim-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}

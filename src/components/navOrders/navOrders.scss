@@ -1,0 +1,65 @@
+.partners {
+  &__bodynav {
+    grid-column: 9/13;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    padding: 15px;
+  }
+
+  &__searchsupply {
+    grid-row: 1/2;
+
+    & > p {
+      margin-bottom: 15px;
+    }
+
+    & > input {
+      border: 1px solid black;
+      box-shadow: 1px 1px 1px black;
+      min-width: 300px;
+      padding: 5px;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__filterpart {
+    grid-row: 2/3;
+  }
+
+  &__inffilter {
+    margin-bottom: 15px;
+  }
+
+  &__butfilter {
+    display: grid;
+    grid-template-columns: 110px 110px 110px;
+    grid-template-rows: 45px;
+    margin-bottom: 15px;
+  }
+
+  &__btn {
+    color: black;
+    font-size: 13px;
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    padding: 5px;
+
+    &:hover {
+      font-weight: 900;
+    }
+  }
+
+  &__filterproduct {
+    grid-row: 3/4;
+  }
+}
+
+.anim-enter {
+  opacity: 0;
+}
+.anim-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}

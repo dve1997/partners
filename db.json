@@ -1,0 +1,76 @@
+{
+  "orders": [
+    {
+      "id": "6e3b0fc0-3815-4f16-88ee-3cd62639dda6",
+      "name": "ООО Пиво",
+      "typePart": "distrebuter",
+      "typeProd": "beer",
+      "type": "пиво",
+      "quantity": "300",
+      "dateCreate": "2024-02-01",
+      "dateShipment": "2024-02-03",
+      "price": "2500000",
+      "sale": "5"
+    },
+    {
+      "id": "f3d03b6e-a6f4-407b-b22b-78be8f1f175b",
+      "name": "ООО Энергетик",
+      "typePart": "keyclient",
+      "typeProd": "energydrink",
+      "type": "энергетик",
+      "quantity": "200",
+      "dateCreate": "2024-02-01",
+      "dateShipment": "2024-02-04",
+      "price": "1500000",
+      "sale": "7"
+    },
+    {
+      "id": "853e6c8d-c4e3-422f-9d86-bd2c8a68b5bf",
+      "name": "ООО Энергетик",
+      "typePart": "keyclient",
+      "typeProd": "energydrink",
+      "type": "энергетик",
+      "quantity": "230",
+      "dateCreate": "2024-02-01",
+      "dateShipment": "2024-02-04",
+      "price": "1900000",
+      "sale": "7"
+    },
+    {
+      "id": "17e0c36d-9a6b-4d89-b365-949f96d954e5",
+      "name": "ООО Пиво",
+      "typePart": "distrebuter",
+      "typeProd": "beer",
+      "type": "пиво",
+      "quantity": "190",
+      "dateCreate": "2024-02-01",
+      "dateShipment": "2024-02-07",
+      "price": "2000000",
+      "sale": "10"
+    },
+    {
+      "id": "fd9deec6-1d3f-4581-95f1-3017764e907b",
+      "name": "ООО Пиво",
+      "typePart": "distrebuter",
+      "typeProd": "beer",
+      "type": "пиво",
+      "quantity": "400",
+      "dateCreate": "2024-02-01",
+      "dateShipment": "2024-02-10",
+      "price": "4100000",
+      "sale": ""
+    },
+    {
+      "id": "ae5d34cb-df43-41ce-850e-03106fd5ead8",
+      "name": "ООО Энергетик",
+      "typePart": "keyclient",
+      "typeProd": "energydrink",
+      "type": "энергетик",
+      "quantity": "210",
+      "dateCreate": "2024-02-01",
+      "dateShipment": "2024-02-11",
+      "price": "2200000",
+      "sale": "5"
+    }
+  ]
+}
